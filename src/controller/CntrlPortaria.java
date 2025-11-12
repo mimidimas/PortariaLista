@@ -1,15 +1,17 @@
 package controller;
 import java.util.*;
 import model.*;
-import ListaGenerica.model;
 
 public class CntrlPortaria implements Iportaria{
 	Scanner scan = new Scanner(System.in);
-	private Lista<Morador>[] tabela;
+	T tabela t [] = new T [];
+	tabela = Lista<Morador>;
 	
 	  // Construtor que recebe a tabela do main
-    public CntrlPortaria(Lista<Morador>[] tabela) {
-        this.tabela = tabela;
+    public CntrlPortaria() {
+        for(int i = 0; i< tabela.length; i++ ) {
+        	
+        }
     }
 	
 	@Override
